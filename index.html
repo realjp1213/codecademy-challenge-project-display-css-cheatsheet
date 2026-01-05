@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Display & Positioning Table</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>    
+    <header>
+        <div>
+          <h1>CSS Box Model Display & Positioning Table</h1>
+          <h2><span class="code">display</span> Property</h2>
+          <p>This CSS property allows you to control how an element flows vertically and horizontally in a document.</p>
+          <p>Next, we'll explore the values that can be used with <span class="code">display</span> and how the declaration will impact how elements are positioned on the browser window.</p>
+        </div>
+    </header>
+    <main>
+      <h3><span class="code">display</span> property values</h3>
+      <table>
+        <thead>
+            <tr>
+              <th class="header-value">Value</th>
+              <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="value">position</td>
+                <td>Defines how elements are placed within the document.</td>
+            </tr>
+            <tr>
+                <td class="value">relative</td>
+                <td>Positions an element relative to its normal document flow placement, allowing for improved styling control.</td>
+            </tr>
+            <tr>
+                <td class="value">absolute</td>
+                <td>Places an element relative to its nearest positioned ancestor or the browser window.</td>
+            </tr>
+            <tr>
+                <td class="value">fixed</td>
+                <td>Positions an element relative to the viewport, removing it from the document flow and keeping it fixed during page scrolling.</td>
+            </tr>
+            <tr>
+                <td class="value">sticky</td>
+                <td>Element sticks to a defined offset position when the user scrolls its parent container.</td>
+            </tr>
+            <tr>
+                <td class="value">z-index</td> 
+                <td>Specifies how far back or how far forward an element appears on the page when it overlaps other elements.</td>
+            </tr>
+            <tr>
+                <td class="value">inline</td>
+                <td>Elements take up as little space as possible, and they cannot have manually adjusted width or height</td>
+            </tr>
+            <tr>
+                <td class="value">block</td>
+                <td>Elements take up the width of their container and can have manually adjusted heights</td>
+            </tr>
+            <tr>
+                <td class="value">inline-block</td>
+                <td>Elements have set width and height, but they can also appear next to each other and do not take up their entire container width.</td>
+            </tr>
+       </tbody>
+      </table>
+      <h2>Other Positioning Properties</h2>
+      <h3><span class="code">float</span> & <span class="code">clear</span></h3>
+      <table>
+        <thead>
+            <tr>
+              <th class="header-value">Value</th>
+              <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="value">float</td>
+                <td>Positions an element to the left or right of its container, allowing other elements to flow around it.</td>
+            </tr>
+            <tr>
+                <td class="value">clear</td>
+                <td>Prevents an element from being positioned next to a floated element on the same line.</td>
+            </tr>
+       </tbody>
+      </table>
+    </main>
+  </body> 
+</html>

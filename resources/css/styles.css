@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, skyblue, pink);
+  font-family: "Work Sans", sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #4C2C72;
+}
+thead {
+    background: #CAE4F7;
+}
+th, td {
+    border-bottom: 2px solid #EAC5D8;
+    padding: 10px;
+}
+td.value {
+    text-align: center;
+    border-right: 2px solid #EAC5D8;
+    font-family: "Space Mono", monospace;
+}
+th.header-value {
+    border-right: 2px solid #EAC5D8;
+}
+.code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    font-family: "Space Mono", monospace;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
